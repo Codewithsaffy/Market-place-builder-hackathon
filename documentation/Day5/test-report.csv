@@ -1,0 +1,8 @@
+Test Case ID,Test Case Description,Test Steps,Expected Outcome,Observed Outcome,Status,Priority Level,Assigned Person,Notes
+TC001,Verify product listing page,Access product page > Check displayed products,Products are displayed accurately,Products appear correctly,Passed,Low,-,No issues detected
+TC002,Examine API error handling,Disable API > Reload page,Display fallback interface with error notification,Error notification displayed,Passed,Medium,-,Handled properly
+TC003,Assess cart functionality,Insert product into cart > Check cart items,Cart updates with the selected product,Cart behaves as expected,Passed,High,-,Functions as intended
+TC004,Validate mobile responsiveness,Adjust browser dimensions > Inspect layout,Layout adapts correctly to screen dimensions,Responsive design operates as expected,Passed,Medium,-,Testing successful
+TC005,Test search functionality,Query product > Verify displayed results > Apply price filter > Authenticate using Clerk,Search performs accurately > Displays relevant products > Filter operates smoothly > Authentication is successful,All features function as expected,Passed,High,-,Testing completed successfully
+TC006,Inspect wishlist and deletion feature,Add item to wishlist > Check wishlist > Remove item from wishlist > Confirm removal,Wishlist operates properly > Item removed successfully,All features perform as intended,Passed,Medium,-,No issues identified
+TC007,Review payment integration with Strapi,Initiate payment using Strapi > Validate the payment workflow,Payment proceeds without errors via Strapi,Payment system functions as required,Passed,High,-,Executed successfully
